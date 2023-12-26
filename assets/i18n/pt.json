@@ -1,0 +1,265 @@
+{
+  "labels": {
+    "telefone_celular": "Telefone celular",
+    "email": "E-mail",
+    "cpf": "CPF",
+    "nome": "Nome",
+    "data_nascimento": "Data de nascimento",
+    "data_validade": "Validade do documento",
+    "data_emissao": "Data de emissão",
+    "local_nascimento": "Local de nascimento",
+    "uf": "UF",
+    "cidade": "Cidade",
+    "estado_civil": "Estado civil",
+    "nome_conjuge": "Nome do cônjuge",
+    "cpf_conjuge": "CPF do cônjuge",
+    "nome_funcionario": "Nome do funcionário",
+    "confirmacao_dados": "Li e confirmo os dados.",
+    "pais": "País",
+    "procuracao_publica": "Procuração Pública",
+    "senha": "Senha",
+    "esqueceu_senha": "Esqueceu sua senha?"
+  },
+  "input-error-message": {
+    "cpf": "Informe o cpf.",
+    "nome": "Informe o nome.",
+    "data": "Informe uma data válida.",
+    "email": "Informe o email.",
+    "telefone": "Informe o telefone.",
+    "documento": "Informe o documento.",
+    "pais": "Informe o país.",
+    "estado": "Informe o estado.",
+    "cidade": "Informe a cidade.",
+    "estado_civil": "Informe o estado civil.",
+    "nome_conjuge": "Informe o nome do cônjuge.",
+    "cpf_conjuge": "Informe o cpf do cônjuge.",
+    "nome_funcionario": "Informe o nome do funcionário.",
+    "confirmacao_dados": "Confirme os dados para continuar.",
+    "numero_valido": "Digite um número válido"
+  },
+  "menu": {
+    "passos": "Passo"
+  },
+  "button": {
+    "btn_continuar": "Continuar",
+    "nao": "Não",
+    "sim": "Sim",
+    "btn_finalizar": "Finalizar",
+    "entrar": "Entrar",
+    "cadastrar": "Cadastrar"
+  },
+  "select": {
+    "default-label": "Selecione"
+  },
+  "help": {
+    "somente-numeros": "Digite apenas números."
+  },
+  "jornada-do-titular": {
+    "documento": "Documentos",
+    "documento_mensagem": "Para prosseguirmos com o cadastro é importante que você tenha o arquivo do seu documento de identificação, que pode ser um dos abaixo:",
+    "documento_mensagem_complemento": "(Formatos aceitos: PDF, PNG, JPG)",
+    "documento_atencao": "Atenção!",
+    "documento_label": "Documento",
+    "documento_atencao_emancipacao": "Como você tem entre 16 e 18 anos, precisaremos também da cópia do seu instrumento de emancipação.",
+    "documento_identificacao": "Documento de Identificação",
+    "documento_identificacao_mensagem": "Envie uma imagem da FRENTE do seu documento de identificação",
+    "documento_identificacao_verso_mensagem": "Envie uma imagem da VERSO do seu documento de identificação",
+    "endereco": "Endereço",
+    "endereco_cep": "CEP",
+    "endereco_logradouro": "Logradouro",
+    "endereco_numero": "Número",
+    "endereco_complemento": "Complemento",
+    "endereco_bairro": "Bairro",
+    "endereco_pais": "País",
+    "endereco_uf": "UF",
+    "endereco_cidade": "Cidade",
+    "dados-profissionais": "Dados Profissionais",
+    "dados-profissionais_profissao": "Profissão",
+    "dados-profissionais_nomeEmpresa": "Nome da empresa",
+    "documento-identificacao": "Documento de Identificação",
+    "documento-identificacao-mensagem": "Envie uma imagem da FRENTE do seu documento de identificação",
+    "patrimonio-renda": "Patrimônio e Renda",
+    "patrimonio-renda-mensal": "Informe sua renda mensal",
+    "patrimonio-renda-faixa": "Selecione sua faixa de patrimônio",
+    "informacoes-internacionais": "Informações Internacionais",
+    "informacoes-internacionais-procurador": "Informações Internacionais Procurador",
+    "us-person-mensagem": "Você é US Person?",
+    "us-person-ajuda": "Possuí Cidadania Norte Americana/Green-Card, dupla nacionalidade e passaporte norte-americano, ou que permaneceu, nos Estados Unidos, durante 31 dias durante o ano corrente e ou 183 dias nos últimos 3 anos.",
+    "assinatura": "Assinatura",
+    "assinatura-mensagem": "Em breve, você receberá em seu e-mail cadastrado um link para assinatura digital Docusign, confira sua caixa de entrada.",
+    "multiplas-cidadanias-mensagem": "Possui outras cidadanias?",
+    "cidadania": "Cidadania",
+    "enderecos-internacionais-mensagem": "Possui endereço em outros países?",
+    "pais": "País",
+    "documento-emancipacao-titulo": "Instrumento de emancipação",
+    "documento-emancipacao-mensagem": "Envie um arquivo PDF da declaração de emancipação",
+    "dados-pessoais": "Dados Pessoais",
+    "dados-pessoais-CPF-aviso": "Digite apenas números",
+    "dados-pessoais-CPF-informativo": "Digite um CPF válido.",
+    "dados-pessoais-CPF": "CPF",
+    "dados-pessoais-data-nascimento": "Data de nascimento",
+    "dados-pessoais-data-nascimento-aviso": "Digite uma data válida",
+    "dados-pessoais-data-nascimento-mensagem": "Menor de 16 anos não é permitido continuar.",
+    "dados-pessoais-email": "E-mail",
+    "dados-pessoais-email-informativo": "Digite um E-mail válido.",
+    "boas-vindas-mensagem": "Boas-vindas ao Braza Bank, clique em ENTRAR, ou se este for seu primeiro acesso, clique em CADASTRAR.",
+    "boas-vindas-cadastro": "Não tem cadastro?",
+    "aumento-limite": {
+      "titulo": "Aumento de Limite",
+      "mensagem-valor-atual": "Seu limite inicial é de R$ 100.000,00 (cem mil reais) anuais para remessas ao exterior.",
+      "mensagem-deseja-aumentar-limite": "Deseja aumentar seu limite?",
+      "mensagem-tipo-comprovante": "Selecione o documento para comprovação de patrimônio e renda",
+      "select-tipo-comprovante-label": "Documento",
+      "imposto-renda-doc-label": "Imposto de Renda",
+      "holerite-doc-label": "Holerite",
+      "imovel-doc-label": "Venda de imóvel: Escritura da venda + Extrato bancário de depósito da venda",
+      "decore-doc-label": "Decore",
+      "outros-doc-label": "Outros"
+    },
+    "autorizacoes-declaracoes": {
+      "autorizacoes": "1. O Cliente/Proponente, por seu representante legal, declara ter conhecimento dos dispostos na Lei Complementar nº 105/01; Resoluções CMN nº 4.753/2019 e nº 3920/10; Circular BACEN nº 3.978/2020, as quais autorizam expressamente o MS Bank e demais empresas relacionadas ao Grupo, no país e no exterior, a: (i) realizar troca de informações cadastrais, de créditos e débitos, com sistemas de positivos e negativos de crédito, como a SERASA, o SPC, o SCR do Banco Central do Brasil e quaisquer outros sistemas de quaisquer outras instituições financeiras; (ii) consultar, trocar e prestar informações sobre o desempenho cambial por meio das operações registradas junto aos sistemas disponibilizados pelo Banco Central do Brasil. O Cliente/Proponente, por seu representante legal, se responsabiliza civil e criminalmente pela veracidade e exatidão das informações aqui prestadas e se compromete a informar imediatamente e por escrito, preferencialmente por meio digital eletrônico comprovado e legalmente aceito, qualquer alteração ocorrida nos dados e informações prestadas.",
+      "declaracoes": "2. O Cliente/Proponente declara ciência e autoriza, expressamente, que seus dados tanto quanto os de seus representantes legais, foram, são e serão tratados com a finalidade única e exclusiva para operação contratada, nos termos da Lei nº 13.709/2018 e suas posteriores atualizações e demais legislação aplicáveis; que seus dados serão mantidos por esta instituição financeira pelo prazo legal estipulado pelos órgãos competentes, em especial o Banco Central do Brasil, sendo deletado ou anonimizado após referido período; caso haja solicitação de término de tratamento e deleção de dados por parte do cliente/proponente, estes serão devidamente realizados após o prazo legal estipulado em lei e demais normas nos termos retro mencionados.",
+      "titulo": "Autorizações e Declarações",
+      "leia": "Leia atentamente e aceite os termos abaixo",
+      "aceite": "Li e aceito os termos.",
+      "aceite-lgpd": "Li e aceito os termos da LGPD. Para mais informações acesse o link a seguir:",
+      "aceite-lgpd-link": "Termo LGPD"
+    },
+    "confirmacao-dados": {
+      "titulo": "Confirme Seus Dados",
+      "mensagem": "Leia atentamente os campos preenchidos, verifique se os dados estão corretos e preencha os que estiverem faltando.",
+      "documento_label": "Documento",
+      "mensagem_conjuge": "Não informar os dados do cônjuge.",
+      "mensagem_familiar": "Possui algum familiar que trabalha no Ms Bank?"
+    },
+    "quase-la": {
+      "titulo": "Quase Lá",
+      "mensagem": "Seus dados foram enviados com sucesso. Aguarde até que seja finalizada a avaliação de seu processo",
+      "btn_finalizar": "Finalizar"
+    },
+    "dados-pessoais-telefone": {
+      "titulo": "Dados Pessoais",
+      "label": "Telefone celular",
+      "alerta": "Digite apenas números.",
+      "mensagem-erro": "Por favor digite um número de telefone válido."
+    },
+    "codigo-acesso": {
+      "titulo": "Código de Acesso",
+      "mensagem": "Escolha como deseja receber o código:",
+      "email-label": "E-mail",
+      "sms-label": "SMS",
+      "assunto": "Código de Verificação"
+    },
+    "validacao-codigo-acesso": {
+      "titulo": "Código de Acesso",
+      "codigo_enviado_email": "Um código de acesso foi enviado para o e-mail: <strong class='fontCor1'>{{ email }}</strong>, digite o código abaixo:",
+      "codigo_enviado_telefone": "Um código de acesso foi enviado para o telefone: <strong class='fontCor1'>{{ telefone }}</strong>, digite o código abaixo:",
+      "btn_validar_label": "Validar",
+      "codigo_nao_enviado_mensagem": "Não recebeu o código de verificação?",
+      "link_reenviar_codigo": "Enviar novamente",
+      "texto_token_invalido": "Token informado não confere!",
+      "texto_erro_validar_token": "Não foi possível validar o token!",
+      "texto_erro_login": "O login não pode ser feito. CPF ou senha inválidos"
+    },
+    "aumento-limite-documento": {
+      "mensagem": "Envie um arquivo no formato PDF do seu"
+    },
+    "procurador": {
+      "titulo": "Procurador",
+      "mensagem": "A conta será movimentada por um procurador?"
+    },
+    "cadastro-concluido": {
+      "titulo": "Acesso criado com sucesso"
+    }
+  },
+  "jornada-do-procurador": {
+    "confirmacao-dados": {
+      "titulo": "Confirme os Dados do Procurador",
+      "mensagem": "Leia atentamente os campos preenchidos, verifique se os dados estão corretos e preencha os que estiverem faltando.",
+      "documento_label": "Documento",
+      "mensagem_conjuge": "Não informar os dados do cônjuge.",
+      "mensagem_familiar": "Possui algum familiar que trabalha no Ms Bank?"
+    },
+    "documentos-procurador":{
+      "titulo":"Documentos do Procurador",
+      "titulo-doc":"Documento de Identificação do Procurador",
+      "documento_identificacao_verso_mensagem":"Envie uma imagem do VERSO do documento de identificação do procurador",
+      "documento_identificacao_frente_mensagem":"Envie uma imagem da FRENTE do documento de identificação do procurador"
+    },
+    "endereco": {
+      "titulo": "Endereço do Procurador"
+    },
+    "vinculo-societario": {
+      "titulo": "Informações Internacionais Procurador"
+    },
+    "dados-profissionais":{
+      "titulo":"Dados Profissionais do Procurador"
+    },
+    "patrimonio-renda":{
+      "titulo":"Patrimônio e Renda do Procurador"
+    },
+    "informacoes-internacionais":{
+      "titulo":"Informações Internacionais Procurador"
+    },
+    "procurador-conclusao": "Procurador Adicionado com Sucesso"
+  },
+  "area-logada": {
+    "pendenciamento": {
+      "titulo": "Pendências",
+      "titular": "Titular",
+      "pendencia-titular": "Instrumento de emancipação expirado.",
+      "procurador": "Procurador",
+      "pendencia-procurador": "Procuração expirada.",
+      "btn_pendencia": "Resolver Pendências"
+    },
+    "area-cliente":{
+      "titulo-aguarde": "Por Favor Aguarde",
+      "titulo-aprovado": "Cadastro Finalizado",
+      "titulo-reprovado": "Cadastro Reprovado",
+      "mensagem-aguarde": "Seus dados foram enviados com sucesso. Aguarde até que seja finalizada a avaliação de seu processo.",
+      "mensagem-aprovado": "Seu cadastro foi finalizado com sucesso. Em caso de dúvidas entre em contato com o time comercial responsável pelo seu atendimento.",
+      "mensagem-reprovado": "Infelizmente seu cadastro foi reprovado. Em caso de dúvidas entre em contato com o time comercial responsável pelo seu atendimento."
+    },
+    "alterar-senha": {
+      "titulo": "Crie sua Senha",
+      "titulo2": "Altere sua Senha",
+      "titulo3": "Senha Temporária",
+      "subtitulo1": "Crie uma senha de acesso incluindo os critérios abaixo",
+      "subtitulo2": "Crie uma nova senha de acesso incluindo os critérios abaixo",
+      "senha": "Senha",
+      "confirme-senha": "Confirme a senha",
+      "mensagem": "Sua senha deve ter no mínimo 9 caracteres com:",
+      "letras-maiusculas": "Letras maiúsculas (A-Z)",
+      "letras-minuculas": "Letras minúsculas (a-z)",
+      "numeros": "Números (0-9)",
+      "caracteres": "Caracteres especiais (! @ # $ % % & *)"
+    },
+    "recuperar-senha":{
+      "titulo":"Recuperar Senha",
+      "mensagem":"Informe o e-mail de acesso cadastrado para receber uma senha temporária.",
+      "e-mail":"E-mail",
+      "btn-senha-temp":"Receber Senha Temporária",
+      "msg-sucesso":"Senha temporária enviada com sucesso para seu e-mail cadastrado.",
+      "btn-continuar":"Continuar",
+      "msg-usuario-nao-encontrado":"Usuário não encontrado"
+    },
+    "procuracao-publica": {
+      "label": "Envie um arquivo da procuração em formato PDF.",
+      "labelAux": "Observação: serão aceitas somente procurações públicas para o cadastro"
+    }
+  },
+  "procuracao-publica": {
+    "label": "Envie um arquivo da procuração em formato PDF.",
+    "labelAux": "Observação: serão aceitas somente procurações públicas para o cadastro"
+  },
+  "vinculo-societario": {
+    "label": "Possui vínculo societário com alguma instituição ou empresa estrangeira?",
+    "nomeEmpresa": "Informe o Nome da Empresa",
+    "cidade-estado": "Cidade/Estado",
+    "porcentagem-vinculo": "Participação no vínculo societário",
+    "municipio": "Município",
+    "incluir-empresa": "Incluir mais uma Empresa",
+    "deletar-empresa": "Deletar Empresa"
+  }
+}
+

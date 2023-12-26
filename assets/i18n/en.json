@@ -1,0 +1,13 @@
+{
+  "SiteTitle": "Multi-language application",
+  "Welcome": "Welcome",
+  "button": {
+    "btn_continuar": "Continue",
+    "nao": "No",
+    "sim": "Yes"
+  },
+  "jornada-do-titular": {
+    "assinatura": "Signature",
+    "assinatura-mensagem": "You will receive in your registered email a link to the Docusign digital signature, check your inbox."
+  }
+}

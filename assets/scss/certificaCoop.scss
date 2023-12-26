@@ -1,0 +1,300 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'NunitoSans', sans-serif;
+  src: url("../fonts/NunitoSans-Regular.ttf");
+}
+
+body {
+  font-family: 'NunitoSans', sans-serif;
+  background-color: #F5F5F5;
+}
+
+
+//CORES
+$cor1: #FF0F4F;
+$cor2: #ff1e00;
+$cor3: #2E2E2E;
+
+
+//BACKGROUND
+.fundoGradiente {
+  height: 100vh;
+  background-image: linear-gradient($cor1, $cor1);
+}
+
+//ICONES
+.checkGray {
+  background-image: url(../svg/checkGray.svg);
+  width: 14px;
+  height: 14px;
+}
+
+.checkGreen {
+  background-image: url(../svg/checkGreen.svg);
+  width: 14px;
+  height: 14px;
+}
+
+.valid {
+  color: #02E026;
+
+}
+
+.invalid {
+  color: #5F5F5F;
+}
+
+
+//FONTES
+.fontCor1 {
+  color: $cor3;
+}
+
+.fontBranca {
+  color: white !important;
+}
+
+.hoverLink:hover {
+  color: $cor1;
+}
+
+a:hover {
+  color: $cor3;
+}
+
+.titulo {
+  font-size: 20px;
+  font-weight: bolder;
+  color: $cor3;
+}
+
+.subTitulo {
+  font-size: 14px;
+  color: $cor3;
+}
+
+
+//INPUTS
+.inputCustom {
+  border-color: #ced4da;
+  width: 100%;
+  height: 50px;
+}
+
+.labelCustom {
+  font-size: 16px;
+}
+
+.inputErrorMessage {
+  display: block;
+  text-align: left;
+  color: $cor2;
+  font-size: 13px;
+}
+
+.posicaoOlho {
+  position: absolute;
+  top: 49px;
+  right: 15px;
+}
+
+//Input select lista de profissões e lista de cidadanias
+.ngx-select__toggle {
+  @extend.inputCustom
+}
+
+.multiselect-dropdown .dropdown-btn {
+  border-color: #ced4da !important;
+}
+
+.padCustom {
+  padding-right: 20px;
+}
+
+@media screen and (max-width: 320px) {
+  .padCustom {
+    padding-right: 15px;
+  }
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::after {
+  background-color: $cor1;
+  border-radius: 5px;
+}
+
+.areaTextoCustom {
+  height: 245px;
+}
+
+
+//BOTÕES
+.botao1 {
+  background-color: $cor1;
+  width: 100%;
+  height: 50px;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+
+  &:hover {
+    color: $cor3;
+  }
+
+  &:focus {
+    color: $cor3;
+  }
+}
+
+
+.botao2 {
+  background-color: white;
+  width: 100%;
+  height: 50px;
+  color: $cor1;
+  font-size: 16px;
+  border-radius: 8px;
+
+  &:hover {
+    color: $cor3;
+  }
+
+  &:focus {
+    color: $cor3;
+  }
+}
+
+.botaoVoltar {
+  font-size: 30px;
+  background-color: transparent;
+  border: none;
+  color: $cor3;
+
+  &:focus {
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+  }
+
+  @extend .fontCor1;
+}
+
+.botaoOutline {
+  width: 100%;
+  background-color: transparent;
+  border: solid 1px $cor3;
+  color: $cor3;
+  border-radius: 8px;
+  font-size: 16px;
+
+  &:hover {
+    color: $cor3;
+  }
+
+  &:focus {
+    color: $cor3;
+  }
+}
+
+.botaoOutlineWhite {
+  width: 100%;
+  height: 50px;
+  background-color: transparent;
+  border: solid 1px white;
+  color: white;
+  border-radius: 8px;
+  font-size: 16px;
+
+  &:hover {
+    color: $cor3;
+  }
+
+  &:focus {
+    color: $cor3;
+  }
+}
+
+.btn.disabled,
+.btn:disabled {
+  background-color: #D1D1D1;
+  color: rgba(0, 0, 0, 0.8);
+  ;
+}
+
+.iconPergunta {
+  color: $cor1;
+  font-size: 23px;
+}
+
+
+//NAV
+.navCustom {
+  background-color: white;
+  padding-right: 25px;
+  height: 64px;
+  border-bottom: 1px solid #D1D1D1;
+}
+
+.navIcon {
+  color: $cor3;
+  font-size: 35px;
+}
+
+.dropCustom {
+  top: 100%;
+  right: 5px;
+  left: unset;
+}
+
+.zeroPadding {
+  padding: 0;
+}
+
+.dropHover:hover {
+  color: $cor1;
+  background-color: #ececec;
+}
+
+
+//PROGRESS BAR
+.barProgress {
+  width: 90%;
+  height: 4px;
+  background-color: #DFDFDF;
+  border-radius: 0%;
+}
+
+@media screen and (max-width: 425px) {
+  .barProgress {
+    width: 90%;
+  }
+}
+
+.progress-bar {
+  background-color: $cor1;
+}
+
+
+//CARD
+.cartaoCustom {
+  background-color: white;
+  width: 70%;
+  border-radius: 12px;
+}
+
+@media screen and (max-width: 425px) {
+  .cartaoCustom {
+    width: 90%;
+  }
+}
+
+
+//CLASSES ADICIONAIS
+
+.button_anterior {
+  background: #757575;
+  color: white;
+}
